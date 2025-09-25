@@ -1,4 +1,4 @@
-# Model Inventory
+# Model Inventory Benchmark Plan
 <br>
 
 ## These models are open-source with clear licenses. The models are also tested using ComfyUI
@@ -118,24 +118,6 @@ Measured from **ComfyUI terminal logs** and verified with `nvidia-smi`.
 
 ⚠️ **This draft is subject to review and further refinement.**
 
-<br>
-<br>
-
-# Initial Setup Guide
-
-## 1. Create a Virtual Environment
-
-# Create venv (Linux/Mac)
-python3 -m venv venv
-
-# Or on Windows
-python -m venv venv
-
-# Activate venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
-
-pip install -r requirements.txt
 
 
 
