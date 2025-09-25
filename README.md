@@ -25,7 +25,7 @@
 
 <br>
 
-# Benchmark Rubric – Quality
+# Benchmark Rubric
 
 
 ## Quality Metric
@@ -41,10 +41,6 @@ The script evaluates every image–prompt pair and outputs a CLIPScore (semantic
 We then take the **average score per model** (across 10 prompts) to represent its overall quality performance.  
 
 ---
-
-<br>
-
-# Benchmark Rubric – Speed
 
 <br>
 
