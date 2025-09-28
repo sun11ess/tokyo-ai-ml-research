@@ -48,7 +48,7 @@ We then take the **average score per model** (across 10 prompts) to represent it
 
 | Metric Used | Definition | Scoring | Limitations |
 |-------------|------------|---------|-------------|
-| **Latency (ms/img)** | Time required to generate a single image at batch size = 1. | - Record elapsed time of execution from ComfyUI (terminal logs).<br>- Average across all prompts.<br>- Lower is better. | Results depend on GPU hardware and prompt complexity. |
+| **Latency (ms/img)** | Time required to generate a single image at batch sizes 1. 4. 8. | - Record elapsed time of execution from ComfyUI (terminal logs).<br>- Average across all prompts.<br>- Lower is better. | Results depend on GPU hardware and prompt complexity. |
 | **Throughput (imgs/min)** | Number of images produced per minute at batch sizes 1, 4, and 8. | - Measure elapsed execution time for generating all images (from terminal logs).<br>- Convert to images/min.<br>- Higher is better. | Strongly affected by VRAM limits and model parallelism.<br>- Not directly comparable across different hardware. |
 
 ---
